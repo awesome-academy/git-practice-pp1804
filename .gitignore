@@ -1,0 +1,21 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+<<<<<<< HEAD
+=======
+/.vscode
+/nbproject
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+<<<<<<< HEAD
+=======
+.phpunit.result.cache
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
