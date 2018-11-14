@@ -15,6 +15,7 @@ class TrustProxies extends Middleware
     protected $proxies;
 
     /**
+<<<<<<< HEAD
      * The current proxy header mappings.
      *
      * @var array
@@ -26,4 +27,11 @@ class TrustProxies extends Middleware
         Request::HEADER_X_FORWARDED_PORT => 'X_FORWARDED_PORT',
         Request::HEADER_X_FORWARDED_PROTO => 'X_FORWARDED_PROTO',
     ];
+=======
+     * The headers that should be used to detect proxies.
+     *
+     * @var int
+     */
+    protected $headers = Request::HEADER_X_FORWARDED_ALL;
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
 }

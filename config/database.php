@@ -37,6 +37,10 @@ return [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
+<<<<<<< HEAD
+=======
+            'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
         ],
 
         'mysql' => [
@@ -50,6 +54,10 @@ return [
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
+<<<<<<< HEAD
+=======
+            'prefix_indexes' => true,
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
             'strict' => true,
             'engine' => null,
         ],
@@ -63,6 +71,10 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
+<<<<<<< HEAD
+=======
+            'prefix_indexes' => true,
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
@@ -76,6 +88,10 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
+<<<<<<< HEAD
+=======
+            'prefix_indexes' => true,
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
         ],
 
     ],
@@ -99,7 +115,11 @@ return [
     |--------------------------------------------------------------------------
     |
     | Redis is an open source, fast, and advanced key-value store that also
+<<<<<<< HEAD
     | provides a richer set of commands than a typical key-value systems
+=======
+    | provides a richer body of commands than a typical key-value system
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
     | such as APC or Memcached. Laravel makes it easy to dig right in.
     |
     */
@@ -112,7 +132,18 @@ return [
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
             'port' => env('REDIS_PORT', 6379),
+<<<<<<< HEAD
             'database' => 0,
+=======
+            'database' => env('REDIS_DB', 0),
+        ],
+
+        'cache' => [
+            'host' => env('REDIS_HOST', '127.0.0.1'),
+            'password' => env('REDIS_PASSWORD', null),
+            'port' => env('REDIS_PORT', 6379),
+            'database' => env('REDIS_CACHE_DB', 1),
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
         ],
 
     ],

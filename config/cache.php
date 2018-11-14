@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
 return [
 
     /*
@@ -70,7 +75,11 @@ return [
 
         'redis' => [
             'driver' => 'redis',
+<<<<<<< HEAD
             'connection' => 'default',
+=======
+            'connection' => 'cache',
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
         ],
 
     ],
@@ -86,9 +95,13 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'prefix' => env(
         'CACHE_PREFIX',
         str_slug(env('APP_NAME', 'laravel'), '_').'_cache'
     ),
+=======
+    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_cache'),
+>>>>>>> 9d388240b5e547064f3fc98a63603daba00790f8
 
 ];
