@@ -46,3 +46,7 @@ echo 'su';
 });
 
 
+Route::get('hoi', function(){
+
+echo 'hello boy' . 'I am monter';
+})
