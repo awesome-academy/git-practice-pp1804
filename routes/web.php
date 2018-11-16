@@ -19,6 +19,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+
+
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 
@@ -33,7 +37,7 @@ Route::get('test-son', function(){
    
 
    
-Route::get('phuong', function(){
+Route::get('phuong', function(){         
 
 
 
