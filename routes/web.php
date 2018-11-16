@@ -27,7 +27,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('test-son', function(){
+Route::get('test-doanhvv1', function(){
     echo 'doanhvv test';
 });
 
