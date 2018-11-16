@@ -31,6 +31,8 @@ Route::get('test-son', function(){
     echo 'doanhvv test';
 });
    
+
+   
 Route::get('phuong', function(){
 
 
