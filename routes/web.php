@@ -45,4 +45,8 @@ lksdnglkansg
 echo 'su';
 });
 
+Route::get('login', function(){
+    echo "page login!";
+});
+
 
