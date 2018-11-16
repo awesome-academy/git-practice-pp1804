@@ -46,3 +46,7 @@ echo 'su';
 });
 
 
+Route::get('hoi', function(){
+lksdnglkansg
+echo 'su';
+})
