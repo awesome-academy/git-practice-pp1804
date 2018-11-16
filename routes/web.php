@@ -47,6 +47,6 @@ echo 'su';
 
 
 Route::get('hoi', function(){
-lksdnglkansg
-echo 'su';
+
+echo 'hello boy' . 'I am monter';
 })
