@@ -31,18 +31,3 @@ Route::get('test-son', function(){
     echo 'doanhvv test';
 });
 
-Route::get('phuong', function(){
-
-
-
-    
-echo 'phuong';
-echo 'doanh';
-});
-
-Route::get('phuong', function(){
-lksdnglkansg
-echo 'su';
-});
-
-
