@@ -25,4 +25,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');needs merge
+error: you need to resolve your current index first
+
+needs merge
+error: you need to resolve your current index first
+
+
